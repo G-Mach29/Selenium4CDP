@@ -408,6 +408,7 @@ public class TestDevToolsNetworkInterception {
         devTools.send(Log.clear());
         devTools.send(Log.disable());
     }
+
     @Test
     public void simulateDeviceDimensions(){
         Map deviceMetrics = new HashMap()
